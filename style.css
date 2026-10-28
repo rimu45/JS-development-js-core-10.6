@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(175, 169, 169);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: black;
+}
+input:focus {
+  outline: none;
+  border: none;
+}
+.suggested-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.eachName {
+  border: 1px solid black;
+  padding: 6px 10px;
+  width: 240px;
+  background-color: rgba(235, 232, 232, 0.945);
+}
+.eachName:hover {
+  background-color: skyblue;
+}
+.selected-list{
+  padding: 0px;
+}
+.each-item {
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  line-height: 10%;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding: 2px 12px;
+  background-color: rgb(248, 137, 215);
+  border: 0.5px solid black;
+}
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 30px;
+  margin-top: 15px;
+}
