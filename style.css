@@ -9,6 +9,7 @@ body{
   padding: 10px 10px;
   font-size: 20px;
   color: black;
+  width: 240px;
 }
 input:focus {
   outline: none;
@@ -19,13 +20,15 @@ input:focus {
   margin: 0;
   list-style-type: none;
 }
-.eachName {
+.each-name {
   border: 1px solid black;
   padding: 6px 10px;
   width: 240px;
+  text-wrap: nowrap;
+  height: auto;
   background-color: rgba(235, 232, 232, 0.945);
 }
-.eachName:hover {
+.each-name:hover {
   background-color: skyblue;
 }
 .selected-list{
